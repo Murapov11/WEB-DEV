@@ -1,0 +1,205 @@
+body{
+    overflow: hidden;
+}
+#first-block{
+    background-color: #f0f2f5;
+    line-height: 1.34;
+    padding-bottom: 165px;
+    position: relative;
+    top: -7px;
+    border: 1px solid;
+}
+#facebook-photo{
+    height: 106px;
+    position: relative;
+    right: 6%;
+    top: 12%;
+}
+
+#facebook-text{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.main-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    top: 8em;
+}
+#facebook-welcome{
+    position: relative;
+    left: 3.5%;
+}
+#login{
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 396px;
+    height: 350px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    position: relative;
+    right: 4.5em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.butt{
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    border: none;
+    color: white;
+    padding: 0 16px;
+}
+.newAcc{
+    background-color: #42b72a;
+    border-color: #42b72a;
+    font-family: inherit;
+    font-weight: bold;
+    position: relative;
+    top: 44px;
+}
+.newAcc:hover{
+    background-color: #36a420;
+    border-color: #36a420;
+}
+#user-data{
+    color: #1c1e21;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-family: inherit;
+    width: 364px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5px;
+    top: 5px;
+
+}
+.input{
+    width: 334px;
+    padding: 14px 16px;
+    color: #1d2129;
+    font-size: 17px;
+    margin: 6px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    opacity: 60%;
+}
+.enter{
+    font-size: 20px;
+    width: 365px;
+    background-color: #166fe5;
+    font-weight: bold;
+    position: relative;
+    top: 11px;
+    right: 3px;
+}
+.enter:link{
+    background-color: #365899;
+    border-color: #365899;
+}
+#forget{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
+    width: 90%;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #dadde1;
+    position: relative;
+    top: 23px;
+}
+#forget:hover {
+    text-decoration: underline;
+}
+#make-page{
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    position: relative;
+    top: 85px;
+}
+#make-page-link{
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+}
+#make-page-link:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    position: relative;
+    top: 370px;
+    width: 980px;
+    margin: 0 auto;
+    border: 2px solid;
+
+}
+.footer a{
+    font-size: 12px;
+    color: #737373;
+
+}
+
+#languages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+#languages li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 90%;
+    position: relative;
+    bottom: 16px;
+}
+#menu li{
+    list-style-type: none;
+    margin-right: 15px;
+}
+#menu li a{
+    text-decoration: none;
+}
+#menu li a:hover{
+    text-decoration: underline;
+}
+#languages li a{
+    text-decoration: none;
+}
+#languages li a:hover{
+    text-decoration: underline;
+}
+x
+.line{
+    border-bottom: 1px solid #dddfe2;
+    position: relative;
+    left: 38px;
+    bottom: 7px;
+}
+.meta{
+    position: relative;
+    top: 360px;
+    left: 302px;
+    font-size: 11px;
+    color: #737373;
+}

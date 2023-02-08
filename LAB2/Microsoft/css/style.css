@@ -1,0 +1,131 @@
+body {
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    font-size: 13px;
+}
+body a{
+    color: inherit;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin: 18px 64px;
+    width: 90%;
+
+}
+header a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+
+}
+.menu-left{
+    margin-left: 12px;
+    margin-top: 4px;
+}
+.menu-right{
+   margin-left: 36%;
+    display: flex;
+    align-items: center;
+}
+.select{
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.menu-item{
+    margin-right: 22px;
+}
+.micro-log{
+    position: relative;
+    bottom: 3px;
+    padding-right: 10px;
+}
+.search{
+    display: flex;
+
+}
+.search img{
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+}
+.enter img{
+    width: 35px;
+    height: 35px;
+    margin-left: 6px;
+}
+.enter{
+    display: flex;
+    align-items: center;
+}
+main{
+    padding-left: 140px;
+    padding-top: 100px;
+    height: 475px;
+    background-image: url("../img/backg.jpg");
+
+}
+main h1{
+    font-size: 2.3125rem;
+}
+main p{
+    font-size: 14px;
+}
+main button{
+    color: white;
+    font-size: 15px;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    background-color: #0067b8;
+}
+main a{
+    text-decoration: none;
+}
+
+#blue-img{
+    height: 475px;
+}
+#foot{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.foot-photo{
+    width: 324px;
+    height: 182px;
+}
+.foot-head{
+    font-size: 1.8125rem;
+    font-weight: 600;
+}
+.foot-item{
+    width: 324px;
+    display: flex;
+    flex-direction: column;
+}
+.foot-text{
+    font-size: 16px;
+    position: relative;
+    bottom: 22px;
+}
+.foot-link{
+    text-decoration: none;
+    color: #0067b8;
+    position: relative;
+    bottom: 18px;
+}
