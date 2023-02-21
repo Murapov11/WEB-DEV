@@ -1,0 +1,29 @@
+<div *ngFor="let product of products" class="item">
+<h3 class="text">
+  <a href="{{ product.shopLink }} " target="_blank">
+  {{ product.name }}
+  </a>
+</h3>
+  <img src="{{ product.img }}">
+  <p *ngIf="product.description" class="text">
+  Описание: {{ product.description }}
+</p>
+  <p>
+    Цена: {{ product.price | currency: 'KZT' }}
+  </p>
+  <p>
+    Рейтинг: {{ product.rating }}
+  </p>
+  <a href="https://web.whatsapp.com/%F0%9F%8C%90/ru">
+    <button type="button">
+      Поделиться
+    </button>
+  </a>
+</div>
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->

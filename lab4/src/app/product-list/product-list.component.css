@@ -1,0 +1,29 @@
+img{
+    width: 200px;
+    height: 280px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin-top: 25px;
+    padding-bottom: 14px;
+    margin-left: 10px;
+    margin-right: 69px;
+}
+
+p{
+   margin: 6px;
+}
+
+.text{
+    text-align: center;
+}
+
+button{
+    width: fit-content;
+}
