@@ -1,0 +1,35 @@
+
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can e found in the LICENSE file at https://angular.io/license
+*/
+
+app-product-list{
+    margin-bottom: 20px;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    width: 350px;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 11px;
+}
+.category-img{
+    width: 200px;
+}
+.categories{
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    /*width: 50%;*/
+    margin: 20px 12px;
+    cursor: pointer;
+    caret-color: white;
+}

@@ -1,0 +1,21 @@
+<app-top-bar></app-top-bar>
+
+<div class="categories">
+  <div *ngFor="let category of categories">
+    <div class="category">
+      <h1 (click)="categoryClick(category.name)">{{ category.name }}</h1>
+      <img src="{{ category.img }}" alt="image" class="category-img">
+    </div>
+  </div>
+</div>
+<app-product-list *ngIf="show" [categoryName]="categoryName"></app-product-list>
+
+<!--<div class="items">-->
+<!--  <app-product-list></app-product-list>-->
+<!--</div>-->
+<!---->
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->

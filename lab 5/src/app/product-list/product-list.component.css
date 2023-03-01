@@ -1,0 +1,27 @@
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
+
+img{
+    width: 200px;
+    height: 240px;
+}
+.share{
+    /*position: absolute;*/
+    /*top: 82%;*/
+}
+
+
+
+p{
+   margin: 6px;
+}
+
+
+button{
+    width: fit-content;
+}
