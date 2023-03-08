@@ -10,16 +10,18 @@ import {AlbumsService} from "../albums.service";
 })
 export class AlbumPhotosComponent {
     photos : Photo[];
+    id : number;
     constructor(private route: ActivatedRoute,
                 private albumsService: AlbumsService) {
       this.photos = [];
+      this.id =0;
     }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((params) => {
-      const id = Number(params.get('id'));
-      console.log(id);
-      this.albumsService.getPhoto(id).subscribe((photos) => {
+      this.id = Number(params.get('id'));
+      console.log(this.id);
+      this.albumsService.getPhoto(this.id).subscribe((photos) => {
         this.photos = photos;
       });
     });
