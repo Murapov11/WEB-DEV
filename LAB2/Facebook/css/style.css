@@ -7,7 +7,6 @@ body{
     padding-bottom: 165px;
     position: relative;
     top: -7px;
-    border: 1px solid;
 }
 #facebook-photo{
     height: 106px;
@@ -25,7 +24,6 @@ body{
 }
 .main-block{
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     position: relative;
     top: 8em;
@@ -78,7 +76,7 @@ body{
     font-family: inherit;
     width: 364px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: relative;
     left: 5px;
     top: 5px;
@@ -137,69 +135,10 @@ body{
     font-weight: 600;
     text-decoration: none;
 }
-#make-page-link:hover{
-    text-decoration: underline;
-}
 
-.footer{
-    position: relative;
-    top: 370px;
-    width: 980px;
-    margin: 0 auto;
-    border: 2px solid;
-
-}
-.footer a{
-    font-size: 12px;
-    color: #737373;
-
-}
-
-#languages{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-
-}
-#languages li{
-    list-style-type: none;
-    margin-right: 10px;
-}
-#menu{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    width: 90%;
-    position: relative;
-    bottom: 16px;
-}
-#menu li{
-    list-style-type: none;
-    margin-right: 15px;
-}
-#menu li a{
-    text-decoration: none;
-}
-#menu li a:hover{
-    text-decoration: underline;
-}
-#languages li a{
-    text-decoration: none;
-}
-#languages li a:hover{
-    text-decoration: underline;
-}
-x
 .line{
     border-bottom: 1px solid #dddfe2;
     position: relative;
     left: 38px;
     bottom: 7px;
-}
-.meta{
-    position: relative;
-    top: 360px;
-    left: 302px;
-    font-size: 11px;
-    color: #737373;
 }
