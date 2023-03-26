@@ -24,6 +24,9 @@ export class AlbumDetailsComponent {
   saveTitle(){
      this.album.title = this.title;
      this.title = '';
+     this.albumsService.putAlbums(this.album).subscribe((album) => {
+       console.log(this.album.title);
+     });
   }
 
   ngOnInit(): void {

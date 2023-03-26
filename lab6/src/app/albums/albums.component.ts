@@ -11,11 +11,9 @@ import {Observable} from "rxjs";
 export class AlbumsComponent {
   albums: Album[];
   newAlbum : Album;
-  title : string;
   constructor(private albumsService: AlbumsService) {
     this.albums = [];
     this.newAlbum = {} as Album;
-    this.title = '';
   }
 
   ngOnInit(): void {
@@ -41,11 +39,4 @@ export class AlbumsComponent {
     });
   }
 
-  putAlbum(album: Album) {
-    album.title = this.title;
-    this.albumsService.putAlbums(album).subscribe((album) => {
-      console.log(album.title);
-    });
-    this.title = '';
-  }
 }

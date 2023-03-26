@@ -9,7 +9,6 @@ import {Album, Photo} from "./models";
 export class AlbumsService {
   BASE_URL : string ='https://jsonplaceholder.typicode.com';
   constructor(private client : HttpClient) {}
-
   getAlbums() : Observable<Album[]>{
     return this.client.get<Album[]>(this.BASE_URL + '/albums');
   }
